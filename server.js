@@ -26,3 +26,4 @@ db.connect(err => {
     });
 });
 
+// NEED TO GET HELP FOR WHY INSOMNIA KEEPS PRINTING "Typeerror: db.query is not a function"
