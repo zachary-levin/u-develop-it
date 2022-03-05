@@ -25,5 +25,3 @@ db.connect(err => {
         console.log(`Server running on port ${PORT}`);
     });
 });
-
-// NEED TO GET HELP FOR WHY INSOMNIA KEEPS PRINTING "Typeerror: db.query is not a function"
