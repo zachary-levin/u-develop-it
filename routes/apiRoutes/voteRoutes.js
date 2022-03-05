@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = ('../../db/connection');
+const db = require('../../db/connection');
 const inputCheck = require('../../utils/inputCheck');
 
 // Get the total votes for all the candidates
